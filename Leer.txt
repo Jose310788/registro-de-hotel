@@ -1,0 +1,18 @@
+*Para ingresar en la Aplicacion.
+	nro habitaciomn	: 301
+	nro documento	: 22222
+	usuario		: 13112017_301
+	contraseña	: 123456
+---------------------------------------------
+	nro habitaciomn	: 201
+	nro documento	: 11111
+	usuario		: 13112017_201
+	contraseña	: 123456
+
+*ingreso al servidor
+	pagina: https://www.000webhost.com/
+	** Login
+		email		: vladdyHotelPrueba@gmail.com
+		password	:123456
+
+

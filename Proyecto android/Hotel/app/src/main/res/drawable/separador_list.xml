@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shape android:shape="line" >
+
+        <!-- width: altura de la línea -->
+        <stroke
+            android:width="8dp"
+            android:color="#e7e7e7" />
+
+        <!-- altura del drawable, siempre debe ser superior al width anterior -->
+        <size android:height="14dp" />
+    </shape>
+
+</inset>

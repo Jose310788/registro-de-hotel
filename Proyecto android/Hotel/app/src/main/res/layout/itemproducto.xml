@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_producto_main" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/separador_list"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_producto"
+                android:text="Large Text"
+                android:textColor="#dfdfdf"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"/>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_descripcion"
+                android:text="Large Text"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"/>
+
+            <ImageView
+                android:id="@+id/img_producto"
+                android:src="@drawable/hotel"
+                android:layout_width="114dp"
+                android:layout_height="114dp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_precio"
+                android:text="Large Text"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:layout_marginLeft="5sp" />
+
+            <ImageButton
+                android:id="@+id/img_btn"
+                android:src="@android:drawable/ic_input_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

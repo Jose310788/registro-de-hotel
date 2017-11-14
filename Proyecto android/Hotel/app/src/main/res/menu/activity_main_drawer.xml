@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/desayuno"
+            android:title="Desayuno" />
+        <item
+            android:id="@+id/almuerzo"
+            android:title="Almuerzo" />
+        <item
+            android:id="@+id/snack"
+            android:title="Snack" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/salir"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>
